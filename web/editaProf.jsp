@@ -51,6 +51,7 @@
                         <button type="submit" class="btn btn-primary" value="alterar">Alterar</button><br/>
                     </div>
                 </form>
+                        <%@include file="rodape.jsp" %>
             </div> 
         </div> 
         <%}

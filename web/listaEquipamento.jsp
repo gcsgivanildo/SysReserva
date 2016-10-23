@@ -65,10 +65,11 @@
                                 </tr>
 
                                 <%}%>
-                            </table>
+                            </table>                            
                         </div>
-                    </div>
+                    </div>                          
                 </div>
+                      <%@include file="rodape.jsp" %>        
             </div>
         </div>
     </body>

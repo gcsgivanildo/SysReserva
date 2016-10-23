@@ -27,8 +27,8 @@
             <div class="parallax-overlay">
                 <!--HEADER-->
                 <%@include file="header.jsp" %>
-                <!-- <h3>Cadastrar salas</h3>-->
                
+                <%@include file="rodape.jsp" %>
             </div> 
         </div>           
     </body>

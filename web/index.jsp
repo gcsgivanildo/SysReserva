@@ -39,6 +39,7 @@
                         <button type="submit" class="btn btn-primary">Acessar</button>
                     </div>
                 </form>
+                    <%@include file="rodape.jsp" %>
             </div>
         </div>
     </body>

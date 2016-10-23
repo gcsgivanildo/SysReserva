@@ -39,7 +39,8 @@
                         <button type="submit" class="btn btn-primary" value="gravar">Gravar</button><br/>
                     </div>
                 </form>
-            </div> 
+                        <%@include file="rodape.jsp" %>
+            </div>
         </div>           
     </body>
 </html>

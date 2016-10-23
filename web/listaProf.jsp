@@ -61,6 +61,7 @@
                         </div>
                     </div>
                 </div>
+                            <%@include file="rodape.jsp" %>
             </div>
         </div>
     </body>

@@ -53,6 +53,7 @@
 
                     </div>
                 </form>
+                        <%@include file="rodape.jsp" %>
             </div> 
         </div> 
         <%}

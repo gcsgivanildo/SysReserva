@@ -68,7 +68,10 @@
                         <button type="submit" class="btn btn-primary" value="gravar">Reservar</button><br/>
                     </div>
                 </form>
+                          <%@include file="rodape.jsp" %>
             </div> 
+                        
         </div> 
+                      
     </body>
 </html>
