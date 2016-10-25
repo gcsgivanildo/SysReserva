@@ -21,8 +21,6 @@
 
         <script src="js/jquery-ui.js"></script>
         <link rel="stylesheet" href="css/jquery-ui.css"> 
-        <script src="index/ie-emulation-modes-warning.js.download"></script>
-        <script src="/admin2.js"></script>
 
         <title>Reservar Sala</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -37,7 +35,7 @@
                     <div  class="panel-heading"><i class="fa fa-check-square-o" aria-hidden="true"></i>&nbsp;Reservar Sala</div>
                     <div id="camposForm">
                         <p>${msg}</p>
-                        <input class="form-control" name="data" placeholder="data que quer a reserva" type="date"  required=""/><br/>
+                        <input class="form-control" id="data" name="data" placeholder="data que quer a reserva" type="date"  required=""/><br/>
                         <input class="form-control" name="hora" placeholder="hora que quer a reserva" type="datetime" required=""/><br/>
                         <select name="duracao" class="form-control" >
                             <option values="30">30 minutos</option>
@@ -72,6 +70,10 @@
             </div> 
                         
         </div> 
-                      
+                
+            
+            <script>
+                $("#data").datepicker();
+            </script>
     </body>
 </html>
